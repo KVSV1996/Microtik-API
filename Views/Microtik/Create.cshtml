@@ -1,0 +1,30 @@
+﻿@model IEnumerable<Microtik_API_Web.Models.VPNUsers>
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Create User</title>
+</head>
+<body>
+    <h1>Create User:</h1>
+
+    <form method="post" action="/Microtik/Create">
+        <label for="username">Username:</label>
+        <input type="text" name="username" required />
+
+        <label for="password">Password:</label>
+        <input type="password" name="password" required />
+
+        <label for="selectedUser">Select Existing User:</label>
+        <select name="selectedUser">
+            <option value="">-- Select User --</option>
+            @foreach (var user in Model)
+            {
+                <option value="@user.Name">@user.Name</option>
+            }
+        </select>
+
+        <button type="submit">Create User</button>
+    </form>
+</body>
+</html>

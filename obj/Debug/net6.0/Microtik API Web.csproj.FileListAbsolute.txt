@@ -1,0 +1,33 @@
+C:\Програмирование\Microtik API Web\bin\Debug\net6.0\appsettings.Development.json
+C:\Програмирование\Microtik API Web\bin\Debug\net6.0\appsettings.json
+C:\Програмирование\Microtik API Web\bin\Debug\net6.0\Microtik API Web.staticwebassets.runtime.json
+C:\Програмирование\Microtik API Web\bin\Debug\net6.0\Microtik API Web.exe
+C:\Програмирование\Microtik API Web\bin\Debug\net6.0\Microtik API Web.deps.json
+C:\Програмирование\Microtik API Web\bin\Debug\net6.0\Microtik API Web.runtimeconfig.json
+C:\Програмирование\Microtik API Web\bin\Debug\net6.0\Microtik API Web.dll
+C:\Програмирование\Microtik API Web\bin\Debug\net6.0\Microtik API Web.pdb
+C:\Програмирование\Microtik API Web\obj\Debug\net6.0\Microtik API Web.csproj.AssemblyReference.cache
+C:\Програмирование\Microtik API Web\obj\Debug\net6.0\Microtik API Web.GeneratedMSBuildEditorConfig.editorconfig
+C:\Програмирование\Microtik API Web\obj\Debug\net6.0\Microtik API Web.AssemblyInfoInputs.cache
+C:\Програмирование\Microtik API Web\obj\Debug\net6.0\Microtik API Web.AssemblyInfo.cs
+C:\Програмирование\Microtik API Web\obj\Debug\net6.0\Microtik API Web.csproj.CoreCompileInputs.cache
+C:\Програмирование\Microtik API Web\obj\Debug\net6.0\Microtik API Web.MvcApplicationPartsAssemblyInfo.cache
+C:\Програмирование\Microtik API Web\obj\Debug\net6.0\Microtik API Web.RazorAssemblyInfo.cache
+C:\Програмирование\Microtik API Web\obj\Debug\net6.0\Microtik API Web.RazorAssemblyInfo.cs
+C:\Програмирование\Microtik API Web\obj\Debug\net6.0\staticwebassets\msbuild.Microtik API Web.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Програмирование\Microtik API Web\obj\Debug\net6.0\staticwebassets\msbuild.build.Microtik API Web.props
+C:\Програмирование\Microtik API Web\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.Microtik API Web.props
+C:\Програмирование\Microtik API Web\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.Microtik API Web.props
+C:\Програмирование\Microtik API Web\obj\Debug\net6.0\staticwebassets.pack.json
+C:\Програмирование\Microtik API Web\obj\Debug\net6.0\staticwebassets.build.json
+C:\Програмирование\Microtik API Web\obj\Debug\net6.0\staticwebassets.development.json
+C:\Програмирование\Microtik API Web\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Програмирование\Microtik API Web\obj\Debug\net6.0\scopedcss\bundle\Microtik API Web.styles.css
+C:\Програмирование\Microtik API Web\obj\Debug\net6.0\scopedcss\projectbundle\Microtik API Web.bundle.scp.css
+C:\Програмирование\Microtik API Web\obj\Debug\net6.0\Microtik API Web.dll
+C:\Програмирование\Microtik API Web\obj\Debug\net6.0\refint\Microtik API Web.dll
+C:\Програмирование\Microtik API Web\obj\Debug\net6.0\Microtik API Web.pdb
+C:\Програмирование\Microtik API Web\obj\Debug\net6.0\Microtik API Web.genruntimeconfig.cache
+C:\Програмирование\Microtik API Web\obj\Debug\net6.0\ref\Microtik API Web.dll
+C:\Програмирование\Microtik API Web\bin\Debug\net6.0\Mikrotik.Net.dll
+C:\Програмирование\Microtik API Web\obj\Debug\net6.0\Microtik API Web.csproj.CopyComplete

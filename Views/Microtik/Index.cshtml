@@ -1,0 +1,55 @@
+﻿@model PaginatedList<Microtik_API_Web.Models.VPNUsers>
+
+<!DOCTYPE html>
+<html>
+<body>
+    <h3>VPN users list:</h3>
+
+    <form asp-controller="Microtik" asp-action="Index">
+        <p>
+            User name: <input type="text" name="SearchString" />
+            <input type="submit" value="Filter" />
+        </p>
+    </form>
+    <a href="/Microtik/Create">Create User</a>
+    <table>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var val in Model)
+            {
+                <tr>
+                    <td>@val.Name</td>
+                    <td>
+                        <a asp-action="ChangePasswordPage" asp-route-nameToChangePassword="@val.Name">Изменить пароль</a> | <a asp-action="ConfirmDelete" asp-route-nameToDelete="@val.Name">Удалить</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</body>
+</html>
+
+@{
+    var prevDisabled = !Model.HasPreviousPage ? "disabled" : "";
+    var nextDisabled = !Model.HasNextPage ? "disabled" : "";
+}
+
+<a asp-action="Index"
+   asp-route-sortOrder="@ViewData["CurrentSort"]"
+   asp-route-pageNumber="@(Model.PageIndex - 1)"
+   asp-route-currentFilter="@ViewData["CurrentFilter"]"
+   class="btn btn-default @prevDisabled">
+    Previous
+</a>
+<a asp-action="Index"
+   asp-route-sortOrder="@ViewData["CurrentSort"]"
+   asp-route-pageNumber="@(Model.PageIndex + 1)"
+   asp-route-currentFilter="@ViewData["CurrentFilter"]"
+   class="btn btn-default @nextDisabled">
+    Next
+</a>

@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "2tU8dEVXaPNg/6xIFLErYsVeWtOWO6BxMBkEk/F9AahQAcixWSN9aLTX69wh6OOIfdHeb/nPnRhwJTmSICoFuA==",
+  "success": true,
+  "projectFilePath": "C:\\Програмирование\\Microtik API Web\\Microtik API Web.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Admin\\.nuget\\packages\\mikrotik.net\\1.3.0\\mikrotik.net.1.3.0.nupkg.sha512"
+  ],
+  "logs": []
+}
